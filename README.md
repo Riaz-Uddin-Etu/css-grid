@@ -1,4 +1,4 @@
 # css-grid
-You can make your page fully responsive by using this css grid layout.
+You can make your web page by using this css grid layout.
+JUST use the CSS CLASS.
 For your better understanding I write HTML code.
-Use that HTM Lcode to understanding grid layout.
