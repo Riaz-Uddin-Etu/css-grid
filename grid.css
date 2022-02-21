@@ -5,8 +5,8 @@ Add this file to your HTML File.
 */
 
 :root {
-  --grid-width: 110rem;
-  --grid-horizontal: 3rem;
+  --grid-width: 124rem;
+  --grid-horizontal: 2rem;
   --grid-vertical: 8rem;
   --grid-vertical-small: 5rem;
 }
@@ -63,5 +63,8 @@ Add this file to your HTML File.
   width: calc((100% - 11 * var(--grid-horizontal)) / 12);
 }
 .row .col-11-of-12 {
-  width: calc(((100% - 11 * var(--grid-horizontal)) * 11 / 12) + 10 * var(--grid-horizontal));
+  width: calc(
+    ((100% - 11 * var(--grid-horizontal)) * 11 / 12) + 10 *
+      var(--grid-horizontal)
+  );
 }
